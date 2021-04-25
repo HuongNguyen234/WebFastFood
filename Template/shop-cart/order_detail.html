@@ -23,7 +23,9 @@
 	<!-- Favicons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-  </head>
+	<link rel="stylesheet" href="./order.css">
+	
+</head>
 <body>
 <!-- 
 	Upper Header Section 
@@ -130,57 +132,129 @@ Body Section
 
 	</div>
 	<div class="span9">
-    <ul class="breadcrumb">
-    <li><a href="index.html">Trang chủ</a> <span class="divider">/</span></li>
-    <li><a href="products.html">Sản phẩm</a> <span class="divider">/</span></li>
-    <li class="active">Chi tiết</li>
-    </ul>	
+    
 	<div class="well well-small">
-	<div class="row-fluid">
-			<div class="span5">
-			<div id="myCarousel" class="carousel slide cntr">
-                <div class="carousel-inner">
-                  <div class="item active">
-                   <a href="#"> <img src="../shop-cart/assets/img/menu_BURGER_fish.png" alt="" style="width:100%"></a>
-                  </div>
+		<div class="info_deliver">
+			<h3>
+				Địa Chỉ Nhận Hàng
+			</h3>
+			<div class="info_deliver-item">
+				<label>Tên người nhận: </label>
+				<div class="info_deliver--name">ABC</div>
+			</div>
+
+			<div class="info_deliver-item">
+				<label>Số điện thoại: </label>
+				<div class="info_deliver--phone-number">0123456789</div>
+			</div>
+
+			<div class="info_deliver-item">
+				<label>Địa chỉ: </label>
+				<div class="info_deliver--address">97 Man Thiện</div>
+			</div>
+		</div>
+		<hr class="clr">
+        <div class="order-detail-item">
+            <div class="order-detail-date">
+                <div class="order-detail-date--title">
+                    Ngày 2/5/2020
+                </div>
+                <div class="order-detail-date--status">
+                    Đã xác nhận
+                </div>
+            </div>
+            <div class="order-detail--body">
+                <div class="row-fluid">	  
+                    <div class="span2">
+                        <img src="../shop-cart/assets/img/menu-gtnm_2.png" alt="">
+                    </div>
+                    <div class="span6">
+                        <h5>Gà tắm nước mắm </h5>
+                        <p>
+                            GIẢM 40% CÒN 33.000Đ NHẬP MÃ POPEYES40 (1 LẦN/TUẦN)
+                        </p>
+                    </div>
+                    <div class="span4 alignR">
+                    <form class="form-horizontal qtyFrm">
+                    <h3> 140.00đ</h3>
+                    
+                    <div class="amount-group">
+                      <span class="multiplication">x</span>
+                      <span>3</span>
+                     </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row-fluid">	  
+                    <div class="span2">
+                        <img src="../shop-cart/assets/img/menu-gtnm_2.png" alt="">
+                    </div>
+                    <div class="span6">
+                        <h5>Gà tắm nước mắm </h5>
+                        <p>
+                            GIẢM 40% CÒN 33.000Đ NHẬP MÃ POPEYES40 (1 LẦN/TUẦN)
+                        </p>
+                    </div>
+                    <div class="span4 alignR">
+                    <form class="form-horizontal qtyFrm">
+                    <h3> 140.00đ</h3>
+                    
+                    <div class="amount-group">
+                      <span class="multiplication">x</span>
+                      <span>3</span>
+                     </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row-fluid">	  
+                    <div class="span2">
+                        <img src="../shop-cart/assets/img/menu-gtnm_2.png" alt="">
+                    </div>
+                    <div class="span6">
+                        <h5>Gà tắm nước mắm </h5>
+                        <p>
+                            GIẢM 40% CÒN 33.000Đ NHẬP MÃ POPEYES40 (1 LẦN/TUẦN)
+                        </p>
+                    </div>
+                    <div class="span4 alignR">
+                    <form class="form-horizontal qtyFrm">
+                    <h3> 140.00đ</h3>
+                    
+                    <div class="amount-group">
+                      <span class="multiplication">x</span>
+                      <span>3</span>
+                     </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="order-detail-price">
+				<div class="order-detail--total pl0">
+                    <div>Tổng tiền hàng:</div> 
+                    <div >920000</div>
+                    <div >đ</div>
+                </div>
+				<div class="order-detail--ship">
+					Phí vận chuyển: 30000đ
+				</div>
+                <div class="order-detail--total pl0">
+                    <div>Tổng số tiền:</div> 
+                    <div class="total-price-order">950000</div>
+                    <div class="total-price-unit">đ</div>
                 </div>
                 
             </div>
-			</div>
-			<div class="span7">
-				<h3>Burger Tôm</h3>
-				<div class="star-evaluate">
-					<div class="rate">
-						<input type="radio" id="star5" name="rate" value="5" />
-						<label for="star5" title="text">5 stars</label>
-						<input type="radio" id="star4" name="rate" value="4" />
-						<label for="star4" title="text">4 stars</label>
-						<input type="radio" id="star3" name="rate" value="3" />
-						<label for="star3" title="text">3 stars</label>
-						<input type="radio" id="star2" name="rate" value="2" />
-						<label for="star2" title="text">2 stars</label>
-						<input type="radio" id="star1" name="rate" value="1" />
-						<label for="star1" title="text">1 star</label>
-					  </div>
-				</div>
-				<br>
-				<br>
-				<form class="form-horizontal qtyFrm">
-				  <div class="control-group">
-					<label class="control-label"><span>Số lượng</span></label>
-					<div class="controls">
-					<input type="number" class="span6" placeholder="1" min="1">
-					</div>
-				  </div>
+
+			
+			
+        </div>
+		
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+				<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 				
-				  <h4>Giá: 25000đ</h4>
-				  <p>Một sự trợ giúp đắc lực gấp đôi về tất cả các lý do khiến bạn yêu thích bánh mì kẹp thịt của chúng tôi.
-				  <p>
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
-				</form>
-			</div>
-			</div>
-				<hr class="softn clr"/>
+				
 
 </div>
 </div>
@@ -226,5 +300,6 @@ Footer
 	<script src="assets/js/jquery.easing-1.3.min.js"></script>
     <script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
     <script src="assets/js/shop.js"></script>
+	<script src="./order.js"></script>
   </body>
 </html>

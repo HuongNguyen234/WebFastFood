@@ -93,14 +93,7 @@ Navigation Bar Section
 		  <form action="#" class="navbar-search pull-left">
 			<input type="text" placeholder="Search" class="search-query span2">
 		  </form>
-		  <ul class="nav pull-right">
-		  <li>
-			  <a href="login.html"><span class="icon-lock"></span>
-				  Đăng nhập
-				  
-				  </i></a>
-		  </li>
-		  </ul>
+		 
 		</div>
 	  </div>
 	</div>
@@ -110,15 +103,21 @@ Body Section
 -->
 	<div class="row">
 <div id="sidebar" class="span3">
+    <div class="well well-small" >
+        <div class="account-user">
+           <h5>User name</h5>
+        </div>
+	</div>
+
 <div class="well well-small">
+
 	<ul class="nav nav-list">
-		<li><a href="products.html"><span class="icon-chevron-right"></span>GÀ RÁN</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>BURGER</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>KHUYẾN MÃI</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>THỨC UỐNG</a></li>
-		
-		<li style="border:0"> &nbsp;</li>
-		<li> <a class="totalInCart" href="cart.html"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+		<li>
+            <span class="icon-user"></span>
+			Tài khoản của tôi
+        </li>
+		<li><a href="./order.html"><span class="icon-chevron-right"></span>Đơn hàng của tôi</a></li>
+		<li><a href="repass.html"><span class="icon-chevron-right"></span>Đổi mật khẩu</a></li>
 	</ul>
 </div>
 <div class="well well-small" ><a href="#"><img src="assets/img/paypal.jpg" alt="payment method paypal"></a></div>
@@ -136,54 +135,83 @@ Body Section
     <li class="active">Chi tiết</li>
     </ul>	
 	<div class="well well-small">
-	<div class="row-fluid">
-			<div class="span5">
-			<div id="myCarousel" class="carousel slide cntr">
-                <div class="carousel-inner">
-                  <div class="item active">
-                   <a href="#"> <img src="../shop-cart/assets/img/menu_BURGER_fish.png" alt="" style="width:100%"></a>
-                  </div>
-                </div>
-                
+        <form class="form-horizontal">
+		
+            <div class="control-group">
+                <h3 class="pl-150">Hồ Sơ Của Tôi</h3>
+                <p style="padding-left: 80px;">Quản lý thông tin hồ sơ để bảo mật tài khoản</p>
+            
             </div>
-			</div>
-			<div class="span7">
-				<h3>Burger Tôm</h3>
-				<div class="star-evaluate">
-					<div class="rate">
-						<input type="radio" id="star5" name="rate" value="5" />
-						<label for="star5" title="text">5 stars</label>
-						<input type="radio" id="star4" name="rate" value="4" />
-						<label for="star4" title="text">4 stars</label>
-						<input type="radio" id="star3" name="rate" value="3" />
-						<label for="star3" title="text">3 stars</label>
-						<input type="radio" id="star2" name="rate" value="2" />
-						<label for="star2" title="text">2 stars</label>
-						<input type="radio" id="star1" name="rate" value="1" />
-						<label for="star1" title="text">1 star</label>
-					  </div>
-				</div>
-				<br>
-				<br>
-				<form class="form-horizontal qtyFrm">
-				  <div class="control-group">
-					<label class="control-label"><span>Số lượng</span></label>
-					<div class="controls">
-					<input type="number" class="span6" placeholder="1" min="1">
-					</div>
-				  </div>
-				
-				  <h4>Giá: 25000đ</h4>
-				  <p>Một sự trợ giúp đắc lực gấp đôi về tất cả các lý do khiến bạn yêu thích bánh mì kẹp thịt của chúng tôi.
-				  <p>
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
-				</form>
-			</div>
-			</div>
+            <div class="control-group">
+                <label class="control-label" for="inputFname">Họ tên <sup></sup></label>
+                <div class="controls">
+                  <input type="text" id="inputFname" placeholder="">
+                </div>
+             </div>
+             <div class="control-group">
+                <label class="control-label" for="inputLname"> Email <sup></sup></label>
+                <div class="controls">
+                  <input type="text" id="inputLname" placeholder="">
+                </div>
+             </div>
+            <div class="control-group">
+            <label class="control-label" for="inputEmail">Số điện thoại <sup></sup></label>
+            <div class="controls">
+              <input type="text" placeholder="">
+            </div>
+          </div>	  
+            
+          <div class="control-group">
+          <label class="control-label" for="inputEmail">Địa chỉ <sup></sup></label>
+            <div class="controls">
+              <input type="text" placeholder="">
+            </div>
+        </div>
+            <div class="control-group">
+            <label class="control-label"> Ngày sinh <sup></sup></label>
+            <div class="controls">
+              <select class="span1" name="days">
+                    <option value="">-</option>
+                        <option value="1">1&nbsp;&nbsp;</option>
+                        <option value="2">2&nbsp;&nbsp;</option>
+                        <option value="3">3&nbsp;&nbsp;</option>
+                        <option value="4">4&nbsp;&nbsp;</option>
+                        <option value="5">5&nbsp;&nbsp;</option>
+                        <option value="6">6&nbsp;&nbsp;</option>
+                        <option value="7">7&nbsp;&nbsp;</option>
+                </select>
+                <select class="span1" name="days">
+                    <option value="">-</option>
+                        <option value="1">1&nbsp;&nbsp;</option>
+                        <option value="2">2&nbsp;&nbsp;</option>
+                        <option value="3">3&nbsp;&nbsp;</option>
+                        <option value="4">4&nbsp;&nbsp;</option>
+                        <option value="5">5&nbsp;&nbsp;</option>
+                        <option value="6">6&nbsp;&nbsp;</option>
+                        <option value="7">7&nbsp;&nbsp;</option>
+                </select>
+                <select class="span1" name="days">
+                    <option value="">-</option>
+                        <option value="1">1&nbsp;&nbsp;</option>
+                        <option value="2">2&nbsp;&nbsp;</option>
+                        <option value="3">3&nbsp;&nbsp;</option>
+                        <option value="4">4&nbsp;&nbsp;</option>
+                        <option value="5">5&nbsp;&nbsp;</option>
+                        <option value="6">6&nbsp;&nbsp;</option>
+                        <option value="7">7&nbsp;&nbsp;</option>
+                </select>
+            </div>
+          </div>
+        <div class="control-group">
+            <div class="controls">
+             <input type="submit" name="submitAccount" value="Lưu" class="exclusive shopBtn">
+            </div>
+        </div>
+        </form>
 				<hr class="softn clr"/>
 
-</div>
-</div>
+            </div>
+    </div>
 </div> <!-- Body wrapper -->
 
 

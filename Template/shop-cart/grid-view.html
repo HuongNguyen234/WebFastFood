@@ -28,7 +28,7 @@
 	Upper Header Section 
 -->
 <div class="navbar navbar-inverse navbar-fixed-top">
-	<div class="topNav">
+	<div class="topNav" id="topnav">
 		<div class="container">
 			<div class="alignR">
 				<div class="pull-left socialNw">
@@ -92,11 +92,17 @@ Navigation Bar Section
 			<input type="text" placeholder="Search" class="search-query span2">
 		  </form>
 		  <ul class="nav pull-right">
+			  <li>
+				<a href="./myAccount.html">
+					<span class="icon-user"></span>
+					</a>
+			  </li>
 		  <li>
+			  
 			  <a href="login.html"><span class="icon-lock"></span>
 				  Đăng nhập
 				  
-				  </i></a>
+				  </a>
 		  </li>
 		  </ul>
 		</div>
@@ -219,11 +225,15 @@ New Products
 	</div>
 	</div>
 
+
+</div><!-- /container -->
+
 <!--
 Footer
 -->
+
 <footer class="footer">
-	<div class="row-fluid">
+	<div class="row-fluid format-footer">
 		<div class="span2">
 			<h5>Địa chỉ</h5>
 			<p>97 Man Thiện, Phường Hiệp Phú, TP.Thủ Đức, TP.Hồ Chí Minh</p>
@@ -244,9 +254,10 @@ Footer
 	</div>
 	</div>
 </footer>
-</div><!-- /container -->
 
-<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
+<div class="back-to-top">
+	<a href="#header"></a>
+  </div>	
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>

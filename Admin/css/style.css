@@ -210,3 +210,56 @@ hr.soften {margin: 8px 0;background: #DDD;}
 .pull-left .logo:hover{
     background: none;
 }
+
+
+.info_deliver-item{
+    display: flex;
+}
+
+.info_deliver-item label{
+    padding-right: 20px;
+}
+
+.info_deliver--name{
+    font-weight: 550;
+    opacity: 0.8;
+}
+
+.order-detail-price{
+    margin-bottom: 10px;
+}
+
+.order-detail--total{
+    line-height: 38px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-detail--ship{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pdr20{
+    padding-right: 20px;
+}
+
+.order-detail--total-price{
+    line-height: 38px;
+    padding-right: 20px;
+}
+
+.total-price-order{
+    font-size: 18px;
+    font-weight: 600;
+    color: #db5151;
+}
+
+.btn-confirm{
+    padding-bottom: 15px;
+    padding-left: 170px;
+}
+
+.btn-confirm-item+.btn-confirm-item{
+    margin-left: 20px;
+}
